@@ -584,7 +584,7 @@ footer p {
   text-align: center;
   padding: 100px 50px 80px 50px;
   position: relative;
-  overflow: hidden;
+/ / overflow: hidden;
 }
 
 .btn:focus {
