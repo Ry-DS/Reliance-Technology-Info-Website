@@ -36,7 +36,6 @@ Credit: https://codepen.io/ge1doot/pen/LkdOwj
                 );
             }
         }
-
         update() {
             if (++this.frame % 20 === 0) this.dir = -this.dir;
             if (
@@ -115,7 +114,6 @@ Credit: https://codepen.io/ge1doot/pen/LkdOwj
             this.points[1].x += (this.x - this.points[1].x) * 0.001;
             this.points[2].x += (this.x - this.points[2].x) * 0.001;
         }
-
         draw() {
             for (const link of this.links) {
                 if (link.size) {
@@ -151,7 +149,6 @@ Credit: https://codepen.io/ge1doot/pen/LkdOwj
             }
         }
     }
-
     Robot.Link = class Link {
         constructor(parent, p0, p1, dist, size, light, force, disk) {
             // ---- cache strokes ----
@@ -181,7 +178,6 @@ Credit: https://codepen.io/ge1doot/pen/LkdOwj
                 }
                 return image;
             }
-
             this.p0 = p0;
             this.p1 = p1;
             this.distance = dist;
