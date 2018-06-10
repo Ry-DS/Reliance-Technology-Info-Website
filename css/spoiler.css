@@ -1,0 +1,20 @@
+.spoilerbutton {
+    display:block;
+    margin: 5px 0;
+}
+.spoiler {
+    overflow:hidden;
+    background: rgba(20, 20, 19, 0);
+}
+.spoiler > div {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: margin 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: margin 0.2s ease;
+}
+.spoilerbutton[value="View more Information"] + .spoiler > div {
+    margin-top:-100%;
+}
+.spoilerbutton[value="Close"] + .spoiler > div {
+    padding:5px;
+}
