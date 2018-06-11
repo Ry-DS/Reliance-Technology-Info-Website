@@ -73,7 +73,7 @@ chart = new Chart(ctx, {
     options: {
       title: {
         display: true,
-        text: 'Number of students who believe robots will have a negative impact'
+        text: 'Number of students who believe robots will have a positive impact'
       }
     }
 });
