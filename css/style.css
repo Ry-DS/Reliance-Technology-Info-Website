@@ -5,7 +5,7 @@ App Starter Template
 http://www.templatemo.com/tm-492-app-starter
 
 */
-/*For robots*/
+/*For robots+other things*/
 canvas {
   position: absolute;
   width: 100%;
@@ -895,4 +895,9 @@ footer p {
     font-size: 16px;
   }
 
+}
+.chart-container {
+	width: 380px !important;
+	height: 400px !important;
+	
 }
