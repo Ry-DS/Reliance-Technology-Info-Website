@@ -31,12 +31,14 @@ $( document ).ready(function() {
         });
     });
 //chart.js
+ Chart.defaults.global.defaultFontColor = '#FFF';
 var ctx = document.getElementById('careers').getContext('2d');
 var chart = new Chart(ctx, {
     // The type of chart we want to create
     type: 'pie',
 	responsive: true,
 	maintainAspectRatio: false,
+	
 
     // The data for our dataset
     data: {
@@ -83,6 +85,7 @@ chart = new Chart(ctx, {
     type: 'radar',
 	responsive: true,
 	maintainAspectRatio: false,
+	borderColor: '#FFF',
 
     // The data for our dataset
     data: {
