@@ -5,6 +5,7 @@
 
 Link: http://ryan-s.me/Reliance-Technology-Info-Website/
 
-Credits:
+#### Credits:
 Robot Hovering: https://codepen.io/zumwalt/pen/yyKOXR
+
 Background Robots: https://codepen.io/ge1doot/pen/LkdOwj
